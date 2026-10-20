@@ -40,13 +40,31 @@ income and spending score.
 7. Visualized the customer segments.
 8. Analysed the number of customers in each cluster.
 9. Exported the results to a CSV file.
+    
+## 6. Results and Business Insights
 
-## 6. Results
-The K-Means algorithm groups customers into clusters
-based on their annual income and spending score.
+The K-Means clustering algorithm segmented 200 mall customers into four groups based on annual income and spending score.
 
-These segments help identify different customer
-behaviour patterns for business decision-making.
+### Customer Segment Distribution
+
+| Customer Segment            | Number of Customers | Percentage |
+| --------------------------- | ------------------: | ---------: |
+| Low Income - High Spending  |                  52 |        26% |
+| High Income - Low Spending  |                  50 |        25% |
+| High Income - High Spending |                  50 |        25% |
+| Low Income - Low Spending   |                  48 |        24% |
+
+### Key Business Insights
+
+1. **Low Income - High Spending:** Consider testing affordable loyalty rewards and personalized offers.
+2. **High Income - Low Spending:** Investigate potential barriers to spending and test targeted promotions.
+3. **High Income - High Spending:** Consider premium product recommendations and personalized customer experiences.
+4. **Low Income - Low Spending:** Explore budget-friendly products and value-based promotions.
+
+### Conclusion
+
+The segmentation results show four customer groups with relatively balanced sizes. These segments can help businesses design targeted marketing strategies. The proposed strategies should be tested against actual purchasing data before implementation.
+
 
 ## 7. Project Files
 - Customer_Segmentation.ipynb: Jupyter Notebook containing
